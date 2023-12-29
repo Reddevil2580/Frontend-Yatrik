@@ -1,0 +1,124 @@
+.slider {
+    position: relative;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .titleofpage1 {
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+  
+  .titlepage1.clicked, .locit.clicked {
+    font-size: 1.5rem;
+    transform: scale(1.1);
+  }
+  
+  .left-arrow,
+  .right-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    z-index: 10;
+  }
+  
+  .left-arrow {
+    left: 10px;
+  }
+  
+  .right-arrow {
+    right: 10px;
+  }
+  
+  .slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+    
+  }
+  
+  .slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+  }
+  
+  .image {
+    width: 600px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 30px;
+    cursor: pointer;
+    max-height: 400px;
+  
+  }
+  
+  .infopage1 {
+    padding: 20px;
+    margin: 10px;
+    background-color: #E8F1F5;
+    border-radius: 40px;
+    color: #0B2447;
+  
+  }
+  
+  .infopage1 h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .infopage1 h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .infopage1 a {
+    color: #2a9d8f;
+    text-decoration: none;
+  }
+  
+  .info.com {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .yesit {
+    flex: 0 0 60%;
+  }
+  
+  .yesit h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .key {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .info.com h5 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .moreinfo {
+    flex: 0 0 35%;
+  }
+  
+  .moreinfoheader {
+    font-size: 1rem;
+    margin-top: 30px;
+  }
+  
+  
