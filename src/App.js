@@ -13,6 +13,7 @@ import GuideAnnapurna from './Mountaineering/GuideAnnapurna';
 import Cheppal from './Mountaineering/Cheppal';
 import Unexplored from './Travel/Unexplored';
 import Khalti from './Payment/Khalti';
+import Mustang from './Mustang.js';
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
         <Route path='/Trekking' Component={Property}/>
         <Route path='/Travel' Component={Travel}/>
         <Route path='/Mountaineering' Component={Mountaineering}/>
-        <Route exact path='/property/0' Component={MountAnnapurna}/>
+        <Route exact path='/property/0' Component={Mustang}/>
+        <Route exact path='/property/1' Component={MountAnnapurna}/>
         <Route exact path='/property/2' Component={Chitwan}/>
         <Route exact path='/Mountain/guide' Component={GuideAnnapurna}/>
         <Route exact path='/annapurnaguide/0' Component={Cheppal}/>

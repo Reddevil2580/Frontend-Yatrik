@@ -5,18 +5,20 @@ import {
   FaHome,
   FaMapPin,
   FaCalendar,
-  FaRedRiver,
 } from "react-icons/fa";
-import Travel from "../Travel.jpg";
+import Travel10 from "./k1.jpg";
+import Travel11 from "./k2.jpg";
+import Travel12 from "./k3.jpg";
+import Travel13 from "./k4.jpg";
 
 import "./Chitwan.css";
 import { Link } from "react-router-dom";
 
 const SliderData = [
-  { image: Travel },
-  { image: Travel },
-  { image: Travel },
-  { image: Travel },
+  { image: Travel10 },
+  { image: Travel11 },
+  { image: Travel12 },
+  { image: Travel13 },
 ];
 
 const ImageSlider = ({ slides }) => {
@@ -60,9 +62,9 @@ const Chitwan = () => {
     <div className="slidingslider">
       <div className="titleofpage1">
         {" "}
-        <h1 className="titlepage1">Chitwan</h1>
+        <h1 className="titlepage1">Mount kanchenjunga</h1>
         <h1 className="locit">
-          Welcome to the land of majestic wildlife and never ending cultural diversity!
+          Feels like the top!
         </h1>{" "}
       </div>
       <section className="slider">
@@ -77,16 +79,24 @@ const Chitwan = () => {
         </h4>
         <div className="info.com">
           <h5 className="yesit">
-            <h3 className="key">Key property information </h3>
-            <FaHome /> Sauraha-Shivaghat-Meghauli<br></br>
-            <FaCalendar/>3days<br></br>
-            <FaRedRiver/>Narayani<br></br>
+            <h3 className="key">Key  information </h3>
+            <FaHome /> Base camp 1-5<br></br>
+            <FaCalendar/>14days<br></br>
           </h5>
           <div className="moreinfo">
-          Chitwan literally means “heart of the jungle”. The popular Inner Terai valley gets its name from Chitrasen, the Tharu King, who once ruled here. In the southwest corner of Bagmati Province, Chitwan lies between foothills of the Himalaya, the Mahabharat and Siwalik ranges. The region called Chitra Ban in earlier references used to be dense forest abounding in wild animals and resorted by recluse sages meditating deep in the forests.
+            <h4>Overview</h4>
+          Mt. Kanchenjunga Expedition takes you to the summit of Mount Kanchenjunga (8586m/ 28,170ft); the third highest mountain in the world. Mount Kanchenjunga is the third after Mount Everest and Mount K2 in the world and it second highest mountain of Nepal located in the eastern part of Nepal. Mount Kanchenjunga is bordered by the Tamur River in the west, Lhonak Chu and Jongsang La Pass (6145m) in the north, and the Teesta River in Sikkim, India in the east.
 
-In recent years Chitwan National Park tops the list of things to do in Asia. It is an exciting jungle experience with - jungle safaris, birdwatching, canoe rides and numerous other nature and jungle activities. While the jungles are teeming with wild animals like tigers, leopards and rhinos, along the marshes and rivers are gharial and marsh mugger crocodiles basking in the sun.
+The name of the mountain "Kanchenjunga" is derived from the Tibetan word ‘Kanchen’ and ‘Dzonga’. ‘Kanchenjunga’ means “The Five Treasures of the Great Snows”, as it contains five peaks, Kanchenjunga I (8586m), Kanchenjunga West (8505m), Kanchenjunga South (8494m) and Kangbachen (7903m). These treasures represent the five repositories: gold, silver, gems, grain, and holy books of God.
+            
+            <h4>Expedition cost</h4>
+            Mt. Kanchenjunga Expedition costs from USD 20,500 for Full Board Service. Mt. Kanchenjunga Expedition can be done both in Autumn and Spring, however, we recommend you to ascend during the Spring season. The cost covers all the transportation, meals, services to Base Camp and High Camp, Expedition Equipment, and High Standard Tents at Base Camps [mentioned in Includes]. However, if you have a big group willing to climb Mt. Makalu Expedition, please contact us, we can offer you Group Discounts too.
+            
             <h5 className="moreinfoheader">
+
+              <h4>Climbing kanchenjunga</h4>
+              Climbing mount Kanchenjunga is regarded as a difficult mountaineering adventure than Mt. Everest Expedition. The ascent to the summit of Kanchenjunga is a tricky and challenging one as the mountaineer and submitters need to prepare for the risk of falling ice and avalanche. It is highly recommended to plan and head to climb Mt Kanchenjunga with professional climbing guides and expedition leaders. Weather, climate and high altitude can go wrong anytime in the Himalayas, hence it is recommended to climb the extreme eight-thousanders mountains with highly experienced climbing Sherpas and guides
+              <br/>
               <button className="Mount-button"><Link to='/travel/guide'>Find guide?</Link></button>
             </h5>
           </div>

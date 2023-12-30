@@ -1,10 +1,10 @@
 import prop1 from './cheppalsherpa.jpg';
-import prop2 from './cheppalsherpa.jpg';
-import prop3 from './cheppalsherpa.jpg';
-import prop4 from './cheppalsherpa.jpg';
-import image1 from './cheppalsherpa.jpg';
-import image4 from './cheppalsherpa.jpg';
-import image5 from './cheppalsherpa.jpg';
+import prop2 from '../guide1.jpg';
+import prop3 from '../guide2.jpg';
+import prop4 from '../guide3.jpg';
+import image1 from '../guide4.jpg';
+import image4 from '../guide5.jpg';
+import image5 from '../guide6.jpg';
 import image9 from './cheppalsherpa.jpg';
 import backgroundimage from './cheppalsherpa.jpg'
 

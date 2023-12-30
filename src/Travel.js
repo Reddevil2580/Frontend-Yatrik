@@ -64,7 +64,7 @@ function Travel() {
   return (
     <div className="property1">
       <img src={Trekkingdst} alt="" />
-      <h1 className="property-title">Trending Treks</h1>
+      <h1 className="property-title">Trending Travels </h1>
       <div className="sortButtons">
         <label htmlFor="province-select">Sort by Province:</label>
         <select id="province-select" onChange={sortByProvince}>
@@ -89,7 +89,7 @@ function Travel() {
       </div>
       {sortedList.length === 0 ? (
         <div className="noPropertiesMessage">
-          No properties are listed based on your interest.
+          No Destination are listed based on your interest.
         </div>
       ) : (
         <div className="propertyList">

@@ -1,9 +1,9 @@
-import prop1 from './Trekking.jpg';
-import prop2 from './Trekking.jpg';
-import prop3 from './Trekking.jpg';
-import prop4 from './Trekking.jpg';
-import image1 from './Trekking.jpg';
-import image4 from './Trekking.jpg';
+import prop1 from './annapurna.jpg';
+import prop2 from './everest.jpg';
+import prop3 from './kanchenjunga.jpg';
+import prop4 from './dhaulagiri.jpg';
+import image1 from './manaslu.jpg';
+import image4 from './manang.jpg';
 import image5 from './Trekking.jpg';
 import image9 from './Trekking.jpg';
 import backgroundimage from './Trekking.jpg';
@@ -11,7 +11,7 @@ import backgroundimage from './Trekking.jpg';
 export const MountaineeringList = [
   {
     name: "Mount Annapurna",
-    days: "1",
+    days: "18",
     image: prop1,
     price: "5000-10000",
     province: "Province 3",
@@ -19,7 +19,7 @@ export const MountaineeringList = [
   },
   {
     name: "Mount Everest",
-    days: "1",
+    days: "15",
     image: prop2,
     price: "11000-15000",
     province: "Province 3",
@@ -27,7 +27,7 @@ export const MountaineeringList = [
   },
   {
     name: "Mount kanchenjunga",
-    days: "1",
+    days: "15",
     image: prop3,
     price: "16000-20000",
     province: "Province 1",
@@ -35,7 +35,7 @@ export const MountaineeringList = [
   },
   {
     name: "Mount Dhaulagiri",
-    days: "2",
+    days: "21",
     image: prop4,
     price: "21000",
     province: "Province 4",
@@ -43,7 +43,7 @@ export const MountaineeringList = [
   },
   {
     name: "Mount Makalu",
-    days: "3",
+    days: "32",
     image: image1,
     price: "5000-10000",
     province: "Province 3",
@@ -51,7 +51,7 @@ export const MountaineeringList = [
   },
   {
     name: "Mount Manaslu",
-    days: "4",
+    days: "20",
     image: image4,
     price: "11000-15000",
     province: "Province 5",

@@ -97,7 +97,7 @@ function GuideAnnapurna() {
   return (
     <div className="property1">
       <img src={Trekkingdst} alt="" />
-      <h1 className="property-title">Trending Treks</h1>
+      <h1 className="property-title">Top Guides</h1>
       <div className="sortButtons">
         <label htmlFor="budget-select">Sort by Budget:</label>
         <select id="budget-select" onChange={sortByBudget}>

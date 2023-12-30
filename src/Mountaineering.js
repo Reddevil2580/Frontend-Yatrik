@@ -89,7 +89,7 @@ function Mountaineering() {
       </div>
       {sortedList && sortedList.length === 0 ? (
         <div className="noPropertiesMessage">
-          No properties are listed based on your interest.
+          No Mountains are listed based on your interest.
         </div>
       ) : (
         <div className="propertyList">
