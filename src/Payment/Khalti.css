@@ -1,0 +1,63 @@
+.khalti-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  .khalti-image {
+    width: 40%;
+    border-radius: 20px;
+  }
+  .khalti-image img{
+    border-radius: 30px;
+  }
+  
+  .khalti-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+  }
+  
+  .khalti-title {
+    margin-left: 10rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    font-size: 1.9rem;
+  }
+  
+  .khalti-subtitle {
+    margin-left: 10rem;
+    margin-top: 1rem;
+    justify-content: center;
+    position: relative;
+    color: rgb(0, 0, 0);
+  }
+  
+  
+  .khalti-button {
+    margin-left: 10rem;
+    background-color: purple;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    max-width: 500px;
+  }
+  
+  .khalti-button:hover {
+    background-color: purple;
+    color: rgb(243, 199, 237);
+  }
+  
+  .khalti-description {
+    margin-left: 10rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+  }

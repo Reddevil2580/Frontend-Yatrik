@@ -11,6 +11,8 @@ import MountAnnapurna from './Mountaineering/MountAnnapurna';
 import Chitwan from './Travel/Chitwan';
 import GuideAnnapurna from './Mountaineering/GuideAnnapurna';
 import Cheppal from './Mountaineering/Cheppal';
+import Unexplored from './Travel/Unexplored';
+import Khalti from './Payment/Khalti';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
         <Route exact path='/property/2' Component={Chitwan}/>
         <Route exact path='/Mountain/guide' Component={GuideAnnapurna}/>
         <Route exact path='/annapurnaguide/0' Component={Cheppal}/>
+        <Route exact path='/unexplored' Component={Unexplored}/>
+        <Route exact path='/khaltipay' Component={Khalti}/>
         </Routes>
     </div>
   );

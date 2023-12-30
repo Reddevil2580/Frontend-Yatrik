@@ -10,6 +10,7 @@ function Home() {
       <button><Link to='/Trekking'>Trekking</Link></button>
      <button><Link to='/Mountaineering'>Mountaineering </Link></button>
       <button><Link to='/Travel'>Travel</Link></button>
+      <button><Link to='/unexplored'>unexplored</Link></button>
     </div>
   )
 }
